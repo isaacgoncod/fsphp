@@ -1,0 +1,29 @@
+{
+    "name": "isaac/07-03-gestao-de-dependencias",
+    "autoload": {
+        "psr-4": {
+            "Isaac\\0703GestaoDeDependencias\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "isaacgoncod",
+            "email": "isaacgoncod@gmail.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Support/Config.php",
+            "source/Support/Helpers.php"
+        ]
+    },
+    "require": {
+
+    }
+}
